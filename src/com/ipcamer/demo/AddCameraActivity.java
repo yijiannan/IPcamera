@@ -37,7 +37,9 @@ import android.widget.TextView;
 import android.widget.Toast;
 
 public class AddCameraActivity extends Activity implements OnClickListener,
-		p2pAddCamerLitener, OnItemSelectedListener, p2pIpcamClientLitener {//实现jar包接口
+		p2pAddCamerLitener, OnItemSelectedListener, p2pIpcamClientLitener {
+	//实现jar包接口
+	//第二个页面添加寻找局域网内的摄像机
 	private EditText userEdit = null;
 	private EditText pwdEdit = null;
 	private EditText didEdit = null;

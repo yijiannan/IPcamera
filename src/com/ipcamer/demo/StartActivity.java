@@ -16,6 +16,7 @@ import android.view.WindowManager;
 
 public class StartActivity extends Activity {
 	//运行后第一个界面
+	//定时器显示公司logo
 	private static final String LOG_TAG = "StartActivity";
 	private Handler mHandler = new Handler() {
 		public void handleMessage(Message msg) {
