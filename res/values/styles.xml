@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="about_title_style">
+        <item name="android:textSize">15.0sp</item>
+        <item name="android:textColor">@color/more_subtitle</item>
+        <item name="android:layout_marginBottom">5.0dip</item>
+    </style>
+
+    <style name="about_content_style">
+        <item name="android:textSize">@dimen/text_normal_size</item>
+        <item name="android:background">@drawable/app</item>
+        <item name="android:padding">15.0dip</item>
+    </style>
+
+    <style name="top_bg_style">
+        <item name="android:background">@drawable/top_bg_blue</item>
+    </style>
+
+    <style name="bg_style">
+        <item name="android:background">@color/color_bg</item>
+    </style>
+
+    <style name="AnimationPreview">
+        <item name="android:windowEnterAnimation">@anim/zoomin</item>
+        <item name="android:windowExitAnimation">@anim/zoomout</item>
+    </style>
+
+</resources>

@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+	<string name="path">/sdcard/test0.mp4</string>
+	<!-- 应有程序 -->
+	<string name="app_name">
+	海源电子</string>
+	<string name="camera_user">用户名</string>
+	<string name="version_code">版本号</string>
+	<string name="soft_name">软件名</string>
+	<string name="camera_pwd">密码</string>
+	<string name="str_ok">确定</string>
+	<string name="str_cancel">取消</string>
+	<string name="exit_alert">确认退出吗 ?</string>
+	<string name="password">密码:</string>
+	<string name="showpwd">显示密码</string>
+	<string name="connected">已连接</string>
+	<string name="pwd_no_empty">密码不能为空</string>
+	<string name="camera_port">端口</string>
+	<string name="send_error">发送失败</string>
+	<string name="recv_error">接收失败</string>
+	<string name="unknow_error">未知错误</string>
+	<string name="disclaimer_conent">海源电子。</string>
+	<string name="version_conent">V 0.0.0.1</string>
+	<string name="contact_me">"公司网站: http://http://www.hyir.cn/客服邮箱:
+		786535946@qq.com"
+	</string>
+	<string name="more_about_disclaimer">软件声明</string>
+	<string name="more_about_version">版本信息</string>
+	<string name="more_about_contact">联系我们</string>
+	<string name="camera_not_online">相机断线,请回首页重连</string>
+	<string name="app_running">正在运行</string>
+
+	<!-- 欢迎界面 -->
+	<string name="str_version">版本</string>
+
+	<!-- 主界面 -->
+	<string name="pppp_status_initialing">已连接, 正在初始化</string>
+	<string name="delete_camera">删除</string>
+	<string name="list_option">操作</string>
+	<string name="del_alert">确认删除?</string>
+	<string name="str_search">搜索</string>
+	<string name="check_loction">查看录像</string>
+	<string name="str_add">添加</string>
+	<string name="str_about">关于</string>
+	<string name="connecting">正在连接...</string>
+	<string name="init_network_error">初始化网络失败</string>
+	<string name="connect_failed">连接失败</string>
+	<string name="edit">修改</string>
+	<string name="setting">设置</string>
+	<string name="string_about">关于我们</string>
+	<string name="camera_type">摄像机类型</string>
+	<string name="device_id_name">ID:</string>
+	<string name="device_type_name">类型:</string>
+	<string name="device_status_name">状态:</string>
+	<string name="pppp_status_unknown">未知状态</string>
+	<string name="pppp_status_connecting">正在连接</string>
+	<string name="pppp_status_online">在线</string>
+	<string name="pppp_status_disconnect">断线</string>
+	<string name="pppp_status_connect_failed">连接失败</string>
+	<string name="pppp_status_invalid_id">ID号无效</string>
+	<string name="pppp_dev_type_unknown">未知类型</string>
+	<string name="device_not_on_line">摄像机不在线</string>
+	<string name="pppp_mode">模式:</string>
+	<string name="pppp_mode_p2p_normal">p2p连接</string>
+	<string name="pppp_mode_p2p_relay">p2p转发</string>
+	<string name="pppp_mode_unknown">未知</string>
+	<string name="pppp_status_connect_timeout">连接超时</string>
+	<string name="main_tap_here_add_vidicon">请按此处新增摄像机</string>
+	<string name="back">返回</string>
+	<string name="done">完成</string>
+	<string name="main_select_all">全选</string>
+	<string name="main_select_reverse">反选</string>
+	<string name="main_edit">编辑</string>
+	<string name="main_check">查看</string>
+	<string name="main_vidicon">摄像机</string>
+	<string name="main_alarm_event">报警事件</string>
+	<string name="main_pic">图片</string>
+	<string name="main_vid">录像</string>
+	<string name="main_remote">远程</string>
+	<string name="main_phone">手机</string>
+	<string name="main_setting_prompt">摄像机不在线,无法进行设置</string>
+	<string name="exit">退出</string>
+	<string name="main_alarm">报警</string>
+	<string name="main_more">更多</string>
+	<string name="main_plea_addcam">请先添加摄像机</string>
+	<string name="main_not_administrator">该用户不是管理员</string>
+	<string name="main_show_back">再按一次，退出程序！</string>
+
+	<!-- 添加相机/修改相机 界面 -->
+	<string name="input_camera_name">请输入摄像机名称</string>
+	<string name="add_camera">添加摄像机</string>
+	<string name="edit_camera">修改摄像机</string>
+	<string name="camera_name">名称</string>
+	<string name="camera_addr">IP地址</string>
+	<string name="input_camera_addr">请输入IP地址</string>
+	<string name="input_camera_port">请输入端口</string>
+	<string name="input_camera_user">请输入用户名</string>
+	<string name="input_camera_id">请输入设备ID</string>
+	<string name="camera_id">设备ID</string>
+	<string name="scan_cameraid">扫描条码</string>
+	<string name="scan_cameraid_fail">扫描失败,请重新扫描</string>
+	<string name="add_search_result">搜索结果</string>
+	<string name="add_search_no">没有搜索到,请重试...</string>
+	<string name="add_twodimensioncode">正在启动二维码程序...</string>
+
+	<!-- 搜索相机界面 -->
+	<string name="searching_tip">正在搜索，请稍候...</string>
+	<string name="search_camera">搜索摄像机</string>
+	<string name="refresh">刷新</string>
+
+	<!-- 设置界面 -->
+	<string name="setting_camera">摄像机设置</string>
+	<string name="setting_wifi">Wifi设置</string>
+	<string name="setting_user">用户设置</string>
+	<string name="setting_ftp">Ftp设置</string>
+	<string name="setting_alerm">报警设置</string>
+	<string name="setting_time">设备时钟设置</string>
+	<string name="setting_mail">邮件设置</string>
+	<string name="setting_sdcard">SD卡设置</string>
+	<string name="datetime_setting">时间设置</string>
+	<string name="mail_setting">邮件设置</string>
+	<string name="ftp_setting">Ftp设置</string>
+	<string name="alerm_setting">报警设置</string>
+
+	<!-- Wifi 设置 -->
+	<string name="wifi">Wifi</string>
+	<string name="wifi_checkmode">验证类型:</string>
+	<string name="wifi_manager">管理WiFi网络</string>
+	<string name="wifi_signal_strong">信号强度:</string>
+	<string name="wifi_safe">安全性:</string>
+	<string name="wifi_no_safe">无</string>
+	<string name="wifi_set_failed">WiFi设置失败</string>
+	<string name="wifi_set_success">WiFi设置成功,摄像机正在重启...</string>
+	<string name="wifi_not_connected">未连接</string>
+	<string name="wifi_scanning">WiFi正在扫描,请稍候...</string>
+	<string name="wifi_scan_failed">WiFi扫描失败</string>
+	<string name="wifi_getparams">正在获取WiFi信息...</string>
+	<string name="wifi_getparams_failed">获取WiFi信息失败</string>
+	<string name="wifi_notchange">WiFi没有更改,不需要设置</string>
+	<string name="wifi_pwd_toolong">密码不能超过128位</string>
+	<!-- User 设置 -->
+	<string name="user_admin">管理员</string>
+	<string name="user_operator">操作者</string>
+	<string name="user_visitor">参观者</string>
+	<string name="user_setting">用户设置</string>
+	<string name="user_set_failed">用户设置失败</string>
+	<string name="user_set_success">用户设置成功,摄像机正在重启</string>
+	<string name="user_name_no_empty">用户名不能为空</string>
+	<string name="user_name">用户名:</string>
+	<string name="user_getparams">正在获取用户信息...</string>
+	<string name="user_getparams_failed">获取用户信息失败</string>
+	<string name="user_name_toolong">用户名不能超过64位</string>
+	<string name="user_pwd_toolong">密码不能超过64位</string>
+
+	<!-- Alerm 设置 -->
+	<string name="alerm_detector_layout">移动侦测布防</string>
+	<string name="alerm_detector_sensitivity">移动侦测灵敏度</string>
+	<string name="alerm_sensitivity_desc">(数值越小越灵敏)</string>
+	<string name="alerm_io_layout">报警输入布防</string>
+	<string name="alerm_trigger_level">触发电平</string>
+	<string name="alerm_presetsit">报警时预置位联动</string>
+	<string name="alerm_io_move">报警后 IO 联动</string>
+	<string name="alerm_ioout_level">输出电平</string>
+	<string name="alerm_mail_inform">报警后邮件通知</string>
+	<string name="alerm_upload_picture">报警后上传图片</string>
+	<string name="alerm_upload_picture_time_interval"> 上传图片时间间隔(秒)</string>
+	<string name="alerm_trigger_event">报警触发事件</string>
+	<string name="alerm_set_failed">报警设置失败</string>
+	<string name="alerm_ioin_levelhight">高电平</string>
+	<string name="alerm_ioin_levellow">低电平</string>
+	<string name="alerm_getparams">正在获取报警信息...</string>
+	<string name="alerm_getparams_failed">获取报警信息失败</string>
+	<string name="alerm_preset_no">无</string>
+	<string name="alerm_uploadinterval_toolong">上传时间不能超过3600秒</string>
+	<string name="alerm_uploadpic_prompt">0或空表示不上传图片</string>
+	<string name="alerm_log">报警日志</string>
+	<string name="alerm_motion_alarm">移动侦测报警</string>
+	<string name="alerm_gpio_alarm">IO联动报警</string>
+	<string name="alerm_no_log">无报警日志</string>
+	<string name="alerm_record">报警后录像</string>
+
+	<!-- 时间设置 -->
+	<string name="date_device_time">设备时钟时间</string>
+	<string name="date_device_timezone">设备时区设定</string>
+	<string name="date_ntp_server_auto_check">使用 NTP服务器自动校时</string>
+	<string name="date_phone_time_auto_check">使用手机时间校准设备时钟</string>
+	<string name="date_ntp_server">NTP服务器</string>
+	<string name="date_middle_island">(GMT-11:00)中途岛,萨摩亚群岛</string>
+	<string name="date_hawaii">(GMT -10:00) 夏威夷</string>
+	<string name="date_alaska">(GMT-09:00)阿拉斯加</string>
+	<string name="date_pacific_time">(GMT-08:00)太平洋时间(美国和加拿大)</string>
+	<string name="date_mountain_time">(GMT-07:00)山地时间(美国和加拿大)</string>
+	<string name="date_middle_part_time">(GMT-06:00)中部时间(美国和加拿大),墨西哥城</string>
+	<string name="date_eastern_time">(GMT-05:00)东部时间(美国和加拿大),利马,波哥大</string>
+	<string name="date_ocean_time">(GMT-04:00)大西洋时间(加拿大),圣地亚哥,拉巴斯</string>
+	<string name="date_newfoundland">(GMT-03:30)纽芬兰</string>
+	<string name="date_brasilia">(GMT-03:00)巴西利亚,布宜若斯艾丽斯,乔治敦</string>
+	<string name="date_center_ocean">(GMT-02:00)中大西洋</string>
+	<string name="date_cape_verde_island">(GMT-01:00)佛得角群岛</string>
+	<string name="date_greenwich">(GMT)格林威治平时,伦敦,里斯本,卡萨布兰卡</string>
+	<string name="date_brussels">(GMT+01:00)布鲁赛尔,巴黎,柏林,罗马,马德里,斯多哥尔摩, 贝尔格莱德, 布拉格
+	</string>
+	<string name="date_athens">(GMT +02:00) 雅典, 耶路撒冷, 开罗, 赫尔辛基</string>
+	<string name="date_nairobi">(GMT +03:00) 内罗毕, 利雅得, 莫斯科</string>
+	<string name="date_teheran">(GMT +03:30) 德黑兰</string>
+	<string name="date_baku">(GMT +04:00) 巴库, 第比利斯, 阿布扎比, 马斯科特</string>
+	<string name="date_kebuer">(GMT +04:30) 科布尔</string>
+	<string name="date_islamabad">(GMT +05:00) 伊斯兰堡, 卡拉奇, 塔森干</string>
+	<string name="date_calcutta">(GMT +05:30) 加尔各答, 孟买, 马德拉斯, 新德里</string>
+	<string name="date_alamotu">(GMT +06:00) 阿拉木图, 新西伯利亚, 阿斯塔南, 达尔</string>
+	<string name="date_bangkok">(GMT +07:00) 曼谷, 河内, 雅加达</string>
+	<string name="date_beijing">(GMT +08:00) 北京, 新加坡, 台北</string>
+	<string name="date_seoul">(GMT +09:00) 首尔, 雅库茨克, 东京</string>
+	<string name="date_darwin">(GMT +09:30) 达尔文</string>
+	<string name="date_guam">(GMT +10:00) 关岛, 墨尔本, 悉尼, 莫尔兹比港, 符拉迪沃斯托克</string>
+	<string name="date_suolumen">(GMT +11:00)马加丹,所罗门群岛, 新喀里多尼亚</string>
+	<string name="date_auckland">(GMT +12:00) 奥克兰, 惠灵顿, 斐济</string>
+	<string name="date_ntp_server_time_nist_gov">time.nist.gov</string>
+	<string name="date_ntp_server_time_kriss_re_kr">time.kriss.re.kr</string>
+	<string name="date_ntp_server_time_windows_com">time.windows.com</string>
+	<string name="date_ntp_server_time_nuri_net">time.nuri.net</string>
+	<string name="date_setting_success">设备时钟时间设置成功</string>
+	<string name="date_setting_failed">设备时钟时间设置失败</string>
+	<string name="date_get_params">正在获取时钟信息...</string>
+
+	<!-- 邮件设置 -->
+	<string name="mail_sender">发送者</string>
+	<string name="mail_smtp_server">SMTP服务器</string>
+	<string name="mail_smtp_port">SMTP端口</string>
+	<string name="mail_check">需要验证</string>
+	<string name="mail_ssl">SSL</string>
+	<string name="mail_ssl_none">NONE</string>
+	<string name="mail_ssl_ssl">SSL</string>
+	<string name="mail_ssl_tls">TLS</string>
+	<string name="mail_smtp_user">SMTP用户</string>
+	<string name="mail_smtp_pwd">SMTP密码</string>
+	<string name="mail_receiver1">接受者1</string>
+	<string name="mail_receiver2">接受者2</string>
+	<string name="mail_receiver3">接受者3</string>
+	<string name="mail_receiver4">接受者4</string>
+	<string name="mail_163">smtp.163.com</string>
+	<string name="mail_126">smtp.126.com</string>
+	<string name="mail_sina">smtp.sina.com</string>
+	<string name="mail_yahoo_com">smtp.mail.yahoo.com</string>
+	<string name="mail_sohu">smtp.sohu.com</string>
+	<string name="mail_yeah">smtp.yeah.net</string>
+	<string name="mail_tom">smtp.tom.com</string>
+	<string name="mail_21cn">smtp.21cn.com</string>
+	<string name="mail_qq">smtp.qq.com</string>
+	<string name="mail_gmail">smtp.gmail.com</string>
+	<string name="mail_eyou">smtp.eyou.com</string>
+	<string name="mail_263">smtp.263.net</string>
+	<string name="mail_setting_success">邮件设置成功</string>
+	<string name="mail_setting_failed">邮件设置失败</string>
+	<string name="mail_getparams">正在获取邮件信息...</string>
+
+	<!-- Ftp设置 -->
+	<string name="ftp_server">FTP服务器</string>
+	<string name="ftp_port">FTP端口</string>
+	<string name="ftp_user">FTP用户</string>
+	<string name="ftp_pwd">FTP密码</string>
+	<string name="ftp_upload_interval_time">上传图片时间间隔(秒)</string>
+	<string name="ftp_upload_prompt">空或者0表示不定时上传图片</string>
+	<string name="ftp_setting_success">Ftp设置成功</string>
+	<string name="ftp_setting_failed">Ftp设置失败</string>
+	<string name="ftp_getparams">正在获取Ftp信息...</string>
+
+	<!-- 摄像机 SDCard 设置 -->
+	<string name="sdcard_getparams">正在获取SDCard信息...</string>
+	<string name="sdcard_total">SD卡总容量(M):</string>
+	<string name="sdcard_remain">SD卡剩余量(M):</string>
+	<string name="sdcard_state">SD卡状态:</string>
+	<string name="sdcard_format">格式化</string>
+	<string name="sdcard_inserted">SD卡已经插入</string>
+	<string name="sdcard_no_inserted">没有插SD卡</string>
+	<string name="sdcard_coverage">录像覆盖:</string>
+	<string name="sdcard_recordlength">录像时长(分钟):</string>
+	<string name="sdcard_recordtime">定时录像:</string>
+	<string name="sdcard_schedule">录像设置</string>
+	<string name="sdcard_range">范围5-180</string>
+	<string name="sdcard_set_failed">SD卡设置失败</string>
+	<string name="sdcard_set_success">SD卡设置成功</string>
+
+	<!-- Ptz设置 -->
+	<!-- 查看本地图片界面 -->
+	<string name="check_localpic">查看快照</string>
+	<string name="takepicture_time">时间:</string>
+	<string name="picture_sum">张</string>
+	<string name="delete_local_picture">删除该照片</string>
+	<string name="delete_local_all_picture">删除所有照片</string>
+	<string name="sum_pic">共: </string>
+	<string name="localpic_no">沒有照片</string>
+	<string name="local_picture">本地图片</string>
+
+	<!-- 查看远程图片界面 -->
+	<string name="remote_pic_offline">摄像机不在线, 无法播放远程图片</string>
+
+	<!-- 查看本地视频界面 -->
+	<string name="check_localvid">查看本地</string>
+	<string name="local_video_date">录像时间:</string>
+	<string name="local_video_badfile">文件已损坏</string>
+
+	<!-- 查看远程视频界面 -->
+	<string name="remote_video_title">远程录像</string>
+	<string name="no_video">没有远程录像文件</string>
+	<string name="remote_video_getparams">正在获取远程录像信息...</string>
+	<string name="remote_video_offline">摄像机不在线, 无法播放远程录像</string>
+	<string name="remote_start_prompt">开始日期不能大于结束日期</string>
+	<string name="remote_end_prompt">结束日期不能小于开始日期</string>
+	<string name="remote_to">至</string>
+
+	<!-- 播放界面 -->
+	<string name="stopplay_alert">结束播放?</string>
+	<string name="camera_type_mjpeg">MJPEG</string>
+	<string name="camera_type_h264">H.264</string>
+	<string name="h264_main_stream">H.264主码流</string>
+	<string name="h264_sub_stream">H.264次码流</string>
+	<string name="mjpeg_sub_stream">MJPEG码流</string>
+	<string name="mjpeg_h264_stream">H.264码流</string>
+	<string name="choose_stream">选择码流</string>
+	<string name="p2p_view_time_out">已到观看时间</string>
+	<string name="p2p_relay_mode_time_out">转发模式观看,剩余时间:</string>
+	<string name="str_second">秒</string>
+	<string name="ptz_takepic_ok">拍照成功</string>
+	<string name="ptz_takepic_fail">拍照失败</string>
+	<string name="ptz_default_vedio_params">视频参数恢复默认值</string>
+	<string name="ptz_control">请按菜单键,进行云台控制</string>
+	<string name="ptz_takepic_save_fail">该设备没有SDCard,照片保存失败</string>
+	<string name="ptz_takevideo_begin">开始录像</string>
+	<string name="ptz_takevideo_end">录像结束</string>
+
+	<!-- 新加登陆后界面 -->
+
+	<string name="main_model_show_tost_connection">请连接上再操作</string>
+	<string name="main_model_u">U盘模式</string>
+	<string name="main_model_pre">预览模式</string>
+	<string name="main_model_video">系统设置</string>
+	<string name="video_model_ing">录像中....</string>
+	<string name="bingding_wifi">Wifi</string>
+	<string name="save_user">保存ID用户名密码</string>
+	<string name="unbind_wifi">未绑定Wifi</string>
+	<string name="main_model_name">奥尼行车记录仪</string>
+	<string name="bingding_wifi_sucess">绑定成功</string>
+	<string name="eixt_show_toast">本地录像中，请先停止再退出！</string>
+	<string name="login_stuta">连接状态</string>
+	<string name="play_cuting">切换中...</string>
+	<string name="cuting_u">进入U盘</string>
+	<string name="cuting_pre">进入预览</string>
+	<string name="loct_file_video">手机录像文件</string>
+	<string name="tf_file_video_loading">远程下载文件</string>
+	<string name="local_video_play_over">播放结束</string>
+	<string name="ptz_takevideo_time_show">文件损坏</string>
+	<string name="intent_show_toast">本地录像中，请先停止再进入U盘模式！</string>
+	<string name="add_check_phone">手机录像文件</string>
+	<string name="add_check_load">远程下载文件</string>
+	<string name="select_list">时间搜索</string>
+	<string name="shuxin_wifi">扫描Wifi</string>
+	<string name="videoing">录像中...</string>
+	<string name="show_toast_videoing">正在录像，请先停止再切换！</string>
+	<string name="show_toat_buzhi">此设备不支持二维码扫描！</string>
+	<string name="login_stuta_camer">相机状态</string>
+	<string name="exit_show">   提示：</string>
+	<string name="exit_qu">删除本地文 件</string>
+	<string name="exit_qu_show">取 消</string>
+	<string name="exit_play_show">确认退出播放?</string>
+	<string name="exit_chenxu_show">确认退出程序?</string>
+</resources>

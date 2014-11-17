@@ -1,0 +1,338 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/play"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+       
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical" >
+
+        <SurfaceView
+            android:id="@+id/playSurface"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent" />
+    </LinearLayout>
+
+    <android.opengl.GLSurfaceView
+        android:id="@+id/myhsurfaceview"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center" />
+
+    <ImageView
+        android:id="@+id/vedioview"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="#0000ffff"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/vedioview_standard"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:background="#ff000000"
+        android:scaleType="fitXY"
+        android:visibility="gone" />
+
+    <LinearLayout
+       
+        android:id="@+id/progressLayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical" >
+
+        <ProgressBar
+            style="?android:attr/progressBarStyleLarge"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="@string/connecting" />
+    </LinearLayout>
+
+    <LinearLayout
+      
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:padding="10dip" >
+
+        <ImageView
+            android:id="@+id/imgup"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:src="@drawable/up"
+            android:visibility="invisible" />
+
+        <LinearLayout
+            
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="30dip"
+            android:layout_marginTop="30dip"
+            android:gravity="center"
+            android:orientation="horizontal"
+            android:padding="10dip" >
+
+            <ImageView
+                android:id="@+id/imgleft"
+                android:layout_width="45dip"
+                android:layout_height="45dip"
+                android:layout_marginRight="100dip"
+                android:src="@drawable/left"
+                android:visibility="invisible" />
+
+            <ImageView
+                android:id="@+id/imgright"
+                android:layout_width="45dip"
+                android:layout_height="45dip"
+                android:layout_marginLeft="60dip"
+                android:src="@drawable/right"
+                android:visibility="invisible" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/imgdown"
+            android:layout_width="45dip"
+            android:layout_height="45dip"
+            android:src="@drawable/down"
+            android:visibility="invisible" />
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/osdlayout"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="horizontal" >
+
+        <TextView
+            android:id="@+id/textosd"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_margin="5dp"
+            android:background="@drawable/background_osd"
+            android:textColor="@color/color_black"
+            android:textSize="18.0sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <LinearLayout
+            android:id="@+id/video_lu_linear"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="48dp"
+            android:background="#00000000"
+            android:gravity="center"
+            android:visibility="gone" >
+
+            <TextView
+                android:id="@+id/sdcard_size"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginRight="5dp"
+                android:background="#00000000"
+                android:textColor="#ff0033"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:text="@string/videoing"
+                android:textColor="#ff0033"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/textTimeStamp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#00000000"
+                android:textColor="#ff0033"
+                android:textSize="18.0sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textResolution"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5dip"
+            android:background="@drawable/background_osd"
+            android:textColor="@color/color_black"
+            android:textSize="18.0sp"
+            android:textStyle="bold"
+            android:visibility="gone" />
+
+        <RelativeLayout
+            android:id="@+id/top_bg"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_alignParentTop="true"
+            android:visibility="gone" >
+
+            <ImageButton
+                android:id="@+id/login_top_back"
+                android:layout_width="65dp"
+                android:layout_height="45dp"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_gravity="center"
+                android:background="@drawable/ptz_takepic_selector"
+                android:src="@drawable/exitbutton" />
+
+            <TextView
+                android:id="@+id/show_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_centerVertical="true"
+                android:layout_marginLeft="5dp"
+                android:textColor="@color/color_white"
+                android:textSize="20.0sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/linearLayout2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:orientation="horizontal" >
+
+                <ImageButton
+                    android:id="@+id/ptz_hori_mirror"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ptz_hori_mirror" />
+
+                <ImageButton
+                    android:id="@+id/ptz_vert_mirror"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ptz_vert_mirror" />
+
+                <ImageButton
+                    android:id="@+id/ptz_hori_tour"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ptz_hori_tour" />
+
+                <ImageButton
+                    android:id="@+id/ptz_vert_tour"
+                    android:layout_width="45dp"
+                    android:layout_height="45dp"
+                    android:layout_marginRight="5dp"
+                    android:background="#00000000"
+                    android:src="@drawable/ptz_vert_tour" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <TextView
+            android:id="@+id/textTimeout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentRight="true"
+            android:background="@drawable/background_osd"
+            android:textColor="@color/color_black"
+            android:textSize="18sp"
+            android:textStyle="bold"
+            android:visibility="invisible" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/ptz_othersetview_anim"
+        android:layout_width="match_parent"
+        android:layout_height="45dp"
+        android:layout_gravity="bottom"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:visibility="gone" >
+
+        <ImageButton
+            android:id="@+id/ptz_audio"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/ptz_takepic_selector"
+            android:src="@drawable/ptz_audio_off" />
+
+        <ImageButton
+            android:id="@+id/ptz_brightness"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/ptz_takepic_selector"
+            android:padding="5dp"
+            android:src="@drawable/ptz_brightness" />
+
+        <ImageButton
+            android:id="@+id/ptz_contrast"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/ptz_takepic_selector"
+            android:padding="5dp"
+            android:src="@drawable/ptz_contrast" />
+
+        <ImageButton
+            android:id="@+id/ptz_default_set"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:layout_marginLeft="2dp"
+            android:layout_marginRight="2dp"
+            android:layout_weight="1"
+            android:background="@drawable/ptz_takepic_selector"
+            android:padding="5dp"
+            android:src="@drawable/ptz_default_set" />
+
+        <Button
+            android:id="@+id/ptz_resoluti"
+            android:layout_width="55dp"
+            android:layout_height="45dp"
+            android:layout_weight="1"
+            android:background="@drawable/ptz_takepic_selector"
+            android:src="@drawable/ptz_resolution_720p"
+            android:text="VGA"
+            android:textColor="#ffffff" />
+
+        <ImageButton
+            android:id="@+id/ptz_playmode"
+            android:layout_width="45dp"
+            android:layout_height="45dp"
+            android:background="@drawable/ptz_takepic_selector"
+            android:padding="5dp"
+            android:src="@drawable/ptz_playmode_enlarge"
+            android:visibility="gone" />
+    </LinearLayout>
+
+</FrameLayout>
